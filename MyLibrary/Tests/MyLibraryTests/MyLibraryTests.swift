@@ -5,7 +5,7 @@ final class MyLibraryTests: XCTestCase {
     func testWeather() throws {
 
         let myLibrary = MyLibrary()
-        let number = 8
+        let number = 0
         let expectation = XCTestExpectation(description: "We asked about the number 8 and heard back 🎄")
         var isLuckyNumber: Bool?
 

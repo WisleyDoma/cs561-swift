@@ -27,7 +27,7 @@ public class MyLibrary {
 
             case let .success(temperature):
                 print(temperature)
-                print("test phase 001")
+                // print("test phase 001")
                 if self.contains(temperature, "8") {
                     completion(true)
                 } else {
